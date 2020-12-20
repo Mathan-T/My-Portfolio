@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component Library</title>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>Mathan's component library</h1>
+    <p>I am attending neog.camp and I want to make a library which would make all my projects look good and consistent.</p>
+
+    <hr>
+
+    <h2>@typography</h2>
+    <h1>This is the bigger heading</h1>
+    <h2>This is comparitively smaller than the heading 1</h2>
+    <p>This is the most commonly used tag to put all your general text here and it also supports <strong>bold</strong> texts.</p>
+    <small>This is relatively small than every other</small>
+
+    <hr>
+
+    <h2>@containers</h2>
+
+    <h3>fluid container</h3>
+    <div class="container">This is a fluid container which goes until the end of the page</div>
+
+    <h3>center container</h3>
+    <div class="container container-center">This is a center container and it will go till the specified width</div>
+
+    <hr>
+
+    <h2>links</h2>
+
+    <a class="link primary-link" href="/">Primary Link</a>
+    <a class="link secondary-link" href="/">Secondary Link</a>
+
+    <hr>
+
+    <h2>@lists</h2>
+
+    <h3>Unordered Lists</h3>
+
+    <ul class="list-non-bullet">
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+    </ul>
+
+    <h3>Unordered Inline List</h3>
+
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Inline Item One</li>
+        <li class="list-item-inline">Inline Item Two</li>
+        <li class="list-item-inline">Inline Item Three</li>
+    </ul>
+
+    <h3>Reverse Ordered List</h3>
+
+    <ol reversed>
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+    </ol>
+
+    <hr>
+
+    <h2>@Navigation</h2>
+
+    <nav class="navigation container">
+        <div class="nav-brand">IamDeveloper</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">Projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">About</a>
+            </li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <h2>@Header</h1>
+
+    <header class="hero">
+        <img class="hero-img" src="images/hero1.svg" />
+        <h1 class=hero-heading>Mathan the aspiring <span class=hero-inverted>{web developer}</span></h1>
+    </header>
+
+    <hr>
+
+    <h2>@Section</h2>
+
+    <section class="section">
+        <h1>white section</h1>
+        <div class= "container container-center">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    </div>
+    </section>
+
+    <section class="section ow">
+        <h1>off white section</h1>
+        <div class="container container-center">
+        <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+    </section>
+
+    <hr>
+
+    <h2>@footer</h2>
+
+    <footer class="footer">
+        <div class="footer-heading">This is the last part of the page</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="/">SocialOne</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">SocialTwo</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">SocialThree</a>
+            </li>
+        </ul>
+    </footer>
+
+</body>
+</html>
