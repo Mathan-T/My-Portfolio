@@ -8,6 +8,7 @@
     <title>Home | Mathan</title>
 </head>
 <body>
+    
     <nav class="navigation container">
         <div class="nav-brand">IamDeveloper</div>
         <ul class="list-non-bullet nav-pills">
@@ -22,37 +23,49 @@
             </li>
         </ul>
     </nav>
-
-    <header>
-        <img src="images/himage.svg">
-        <h1>Mathan the aspiring <span>{Web Developer}</span></h1>
+    
+    <header class="hero">
+        <img class="hero-img" src="images/himage.svg">
+        <h1 class="hero-heading">Mathan the aspiring <span class="hero-inverted">{Web Developer}</span></h1>
     </header>
-    <section>
-        <h1>About me</h1>
-        <p>I am very new to the world of web development but in a very short amount of time and with the help of neog.camp, I have been able to learn a lot things and make this portfolio using <span>HTML & CSS.</span></p>
-        <p>And i'm familiar with <strong>HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS, and Web Hosting.</strong></p>
+    
+    <section class="section">
+        <h1>About <span class="span-inverted">me</span></h1>
+        <div class="container container-center">
+        <p>I am very new to the world of web development but in a very short amount of time and with the help of neog.camp, I have been able to learn a lot things and make this portfolio using <span class="span-inverted">HTML & CSS.</span></p>
+        <p>And i'm familiar with <span class="span-inverted">HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS, and Web Hosting.</span></p>
+        </div>
     </section>
-    <section>
-        <h1>My Projects</h1>
-        <p>I believe in exploring and learning new things. I've been working on some projects which i'll be updating on this portfolio.</p>
-        <a href="/">See Projects</a>
+    
+    <section class="section">
+        <h1>My <span class="span-inverted">Projects</span></h1>
+        <div class="container container-center">
+        <p>I believe in exploring and learning new things. I've been working on some projects which i'll be updating on this <span class="span-inverted">portfolio.</span></p>
+        <a class="link primary-link" href="/projects.html">See Projects</a>
+        </div>
     </section>
-    <section>
-        <h1>My Blogs</h1>
-        <p>I'll be documenting my learnings throughout this journey in blogs which I'll keep updating on this portfolio.</p>
-        <a href="/">See Blogs</a>
+    
+    <section class="section">
+        <h1>My <span class="span-inverted">Blogs</span></h1>
+        <div class="container container-center">
+        <p>I'll be documenting my learnings throughout this journey in blogs which I'll keep updating on this <span class="span-inverted">portfolio.</span></p>
+        <a class="link secondary-link" href="/blogs.html">See Blogs</a>
+        </div>
     </section>
-    <footer>
-        <div>Connect with me</div>
-        <ul>
-            <li>
-                <a href="/">Linkedin</a>
+    
+    <footer class="footer">
+        <div class="footer-heading">Connect with me</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="/">Linkedin</a>
             </li>
-            <li>
-                <a href="/">Instagram</a>
+            |
+            <li class="list-item-inline">
+                <a class="link" href="/">Instagram</a>
             </li>
-            <li>
-                <a href="/">GitHub</a>
+            |
+            <li class="list-item-inline">
+                <a class="link" href="/">GitHub</a>
             </li>
         </ul>
     </footer>
